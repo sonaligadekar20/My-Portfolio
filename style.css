@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Header Section */
+.navbar-nav{
+    margin-left: 600px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;   
+}
+.navbar{
+    background-color: rgb(31, 30, 30); 
+    transition: 0.5s ease left;
+
+}
+.navbar-brand h1{
+    font-size: 2rem;
+	text-transform: uppercase;
+    margin-left: 80px;
+    text-decoration: none;
+	color: white; 
+}
+.navbar-brand h1 span{
+	color: crimson;
+}
+.nav-link{
+	letter-spacing: 0.3rem;
+	text-transform: uppercase; 
+	/* padding: 20px; */
+	/* display: block; */
+}
