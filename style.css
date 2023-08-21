@@ -4,11 +4,10 @@
 }
 /* Navbar Section */
 
-.navbar{
+ .navbar{
     background-color: rgb(31, 30, 30); 
-    transition: 0.5s ease left;
-	position: sticky;
-    top:0;
+    transition: 0.5s ease left; 
+	
 }
 .navbar-nav{
     margin-left: 600px;
@@ -44,7 +43,8 @@
 .header-container{
     background-image: url(./portfolio1bg.png);
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
+	height: 700px;
     width: 100%;
     background-position: top center; 
     position: relative; 
@@ -83,11 +83,71 @@
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
-	transition: 0.3s ease;
+	/* transition: 0.3s ease; */
 	text-decoration: none;
 	/* transition-property: background-color, color; */
 }
 .cta:hover {
 	color: white;
+	background-color: crimson;
+}
+
+/* About section */
+.section-title {
+	font-size: 3.5rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	/* text-align: center; */
+}
+
+.section-title span {
+	color: crimson;
+}
+.col-left {
+	width: 250px;
+	height: 360px;
+}
+.col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	left: 100px;
+	border: 10px solid white;
+}
+.col-right h2 {
+	font-size: 1.5rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+ /* .col-right .cta {  *
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px; 
+	font-size: 1.3rem;
+	text-decoration: none;
+/* }  */
+.about-cta{
+	position: relative;
+    top:40px;
+    /* left: 10px; */
+	padding: 10px 30px;
+	/* color: white; */
+	color: black;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	/* transition: 0.3s ease; */
+	text-decoration: none;
+	
+}
+.about-cta:hover {
+	color:black;
 	background-color: crimson;
 }
