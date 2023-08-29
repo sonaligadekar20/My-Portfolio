@@ -2,13 +2,17 @@
     margin:0;
     padding:0;
 }
+
+/* .bg-tomato{ */
+	/* background-color: tomato;} */
 /* Navbar Section */
 
- .navbar{
-    background-color: rgb(31, 30, 30); 
-    transition: 0.5s ease left; 
+   .navbar{
+    background-color: rgb(31, 30, 30);  
+
 	
 }
+
 .navbar-nav{
     margin-left: 600px;
     font-size: 1.3rem;
@@ -28,9 +32,8 @@
 .nav-link{
 	letter-spacing: 0.3rem;
 	text-transform: uppercase; 
-	/* padding: 20px; */
-	/* display: block; */
-}
+	
+} 
 /* End Navbar  */
 /* Header Section */
 /* .container { *
@@ -41,13 +44,14 @@
 	justify-content: center;
 /* } */
 .header-container{
-    background-image: url(./portfolio1bg.png);
+    background-image: url(./bg-computer1.png);
     background-size: cover;
-    /* height: 100vh; */
+    /* height: 100vh;  */
 	height: 700px;
     width: 100%;
     background-position: top center; 
     position: relative; 
+	opacity: 0.9;
 }
 .header-container{ 
     max-width: 1600px;
@@ -151,3 +155,13 @@
 	color:black;
 	background-color: crimson;
 }
+@media  screen and (max-width: 600px){
+.fun{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+ align-items: center;
+}
+}
+
+	
