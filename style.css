@@ -31,13 +31,7 @@
 }
 /* End Navbar  */
 /* Header Section */
-/* .container { *
-	min-height: 100vh;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-/* } */
+
 .header-container{
     background-image: url(./bg-computer.png);
     background-size: cover;
@@ -48,32 +42,29 @@
     position: relative; 
 	opacity: 0.9;
 }
-.header-container{ 
-    max-width: 1600px;
-	margin: 0 auto;
-	padding: 0 50px;
-	/* justify-content: flex-start; */
-
- } 
- .header-container h1{ 
+.header-container-text{
+	position: relative;
+	top:120px;
+	left:160px;
+}
+.header-container h1{ 
     display: block;
 	width: fit-content;
 	font-size: 4rem;
     letter-spacing: 0.2rem;
-	position: relative;
 	color:white ;
-    top:130px;
-    left: 200px;
-	
 } 
 .header-container h1 span{ 
    color: crimson;
  }
- .cta {
-	/* display: inline-block; */
-    position: relative;
-    top: 120px;
-    left: 200px;
+.header-text{
+	font-size: 25px;
+	color:whitesmoke;
+	margin-top: 15px;
+	letter-spacing: 0.1rem;
+
+}
+.cta {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
@@ -81,12 +72,16 @@
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
-	margin-top: 30px;
+	margin-top: 10px;
 	text-decoration: none;
 }
 .cta:hover {
 	color: white;
 	background-color: crimson;
+}
+.s-icon{
+    word-spacing: 20px;
+	margin: 20px;
 }
 
 /* About section */
@@ -115,21 +110,18 @@
 	border: 10px solid white;
 }
 .col-right h2 {
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
- /* .col-right .cta {  *
-	color: black;
-	margin-bottom: 50px;
-	padding: 10px 20px; 
-	font-size: 1.3rem;
-	text-decoration: none;
-/* }  */
+.fs-5{
+	letter-spacing: 0.1rem;	
+}
 .about-cta{
 	position: relative;
-    top:40px;
+    top:25px;
     /* left: 10px; */
 	padding: 10px 30px;
 	/* color: white; */
@@ -200,7 +192,7 @@
 	color: white;
 	text-align: center;
 	font-weight: 500;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	letter-spacing: 0.1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -210,7 +202,7 @@
 	margin-bottom: 30px;
 	justify-content: center;
 }
-   .social-item { 
+.social-item { 
 	margin: 15px;
 } 
 
