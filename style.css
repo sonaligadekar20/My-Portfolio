@@ -23,8 +23,7 @@
 }
 .nav-link{
 	letter-spacing: 0.3rem;
-	text-transform: uppercase; 
-	
+	text-transform: uppercase; 	
 } 
 .bg-dark{
 	background-color:  rgba(31, 30, 30, 0.24);
@@ -44,7 +43,7 @@
 }
 .header-container-text{
 	position: relative;
-	top:120px;
+	top:110px;
 	left:160px;
 }
 .header-container h1{ 
@@ -62,7 +61,6 @@
 	color:whitesmoke;
 	margin-top: 15px;
 	letter-spacing: 0.1rem;
-
 }
 .cta {
 	padding: 10px 30px;
@@ -125,7 +123,6 @@
     /* left: 10px; */
 	padding: 10px 30px;
 	/* color: white; */
-	
 	color:black;
 	background-color: transparent;
 	border: 2px solid crimson;
@@ -134,7 +131,6 @@
 	letter-spacing: 0.1rem;
 	margin-top: 30px;
 	text-decoration: none;
-	
 }
 .about-cta:hover {
 	color:white;
@@ -142,24 +138,24 @@
 }
 .col-left .about-img { 
 	height: 100%;
-	width: 100%;
+	width: 100%; 
 	position: relative;
-	border: 10px solid white;
+    border: 10px solid white;
  } 
-    /* .col-left .about-img::after {   *
+.col-left .about-img::after {    
 	content: '';
 	position: absolute;
 	left: -33px;
-	top: 19px;
-	height: 100%;
-	width: 100%;
+	top: 25px;
+    height: 100%;
+    width: 100%; 
 	border: 9px solid crimson;
 	z-index: -1;
-}
+ } 
 
 .col-left.about-img { 
 	border: 7px solid crimson;
-/* } */
+ } 
 
 .btn-danger{
 	background-color: crimson ;
