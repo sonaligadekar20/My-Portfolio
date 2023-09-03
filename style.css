@@ -227,7 +227,7 @@
 	.header-container-text{
 		position: relative;
 		top:80px;
-		left:45px;
+		left:40px;
 	}
 	.header-container h1{ 
 		display: block;
@@ -241,6 +241,7 @@
 		color:whitesmoke;
 		margin-top: 20px;
 		letter-spacing: 0.1rem;
+		margin-right: 40px;
 	}
 	.cta {
 		padding: 10px 30px;
@@ -309,8 +310,8 @@
 	.fun{
 		display: flex;
 		flex-direction: column;
-		 width: 40%; 
-		justify-content: center;
+	    width: 40%; 
+		justify-content: space-evenly;
 		margin-left: 100px;
 	}
 	
