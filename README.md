@@ -7,11 +7,11 @@
  <a href="https://www.linkedin.com/in/sonali-gadekar/" target="_blank"> <img src="linkedin.png" height="50px" alt="linkedin"></a>
 
 ## Languages and Tools
-<img src="./html-5.png" alt="html" height="60">
+<p><img src="./html-5.png" alt="html" height="60">
 <img src="./css-3.png" alt="css" height="60">
 <img src="./java-script.png" alt="javascript" height="60">
 <img src="./bootstrap.png" alt="bootstrap" height="60">
 <img src="./git.png" alt="git" height="60">
-<img src="./github.png" alt="github" height="60">
+<img src="./github.png" alt="github" height="60"></p>
 
               
