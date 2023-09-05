@@ -27,11 +27,11 @@
 	background-color:  rgba(31, 30, 30, 0.24);
 }
 /* End Navbar  */
+
 /* Header Section */
 .header-container{
     background-image: url(./bg-computer.png);
     background-size: cover;
-    /* height: 100vh;  */
 	height: 700px;
     width: 100%;
     background-position: top center; 
@@ -41,7 +41,7 @@
 .header-container-text{
 	position: relative;
 	top:110px;
-	left:160px;
+	margin-left: 150px;
 }
 .header-container h1{ 
     display: block;
@@ -215,7 +215,7 @@
 		text-transform: uppercase; 	
 	} 
 	.header-container{
-		background-image: url(./bg-computer.png);
+		background-image: url(./portfolio1bg.png);
 		background-size: cover;
 		/* height: 100vh;  */
 		height: 650px;
@@ -227,7 +227,7 @@
 	.header-container-text{
 		position: relative;
 		top:80px;
-		left:40px;
+		margin-left: 40px;
 	}
 	.header-container h1{ 
 		display: block;
